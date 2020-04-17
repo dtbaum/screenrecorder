@@ -1,0 +1,27 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <!--
+    This jelly script is used for per-project configuration.
+
+    See global.jelly for a general discussion about jelly script.
+  -->
+
+  <!--
+    Creates a text field that shows the value of the "name" property.
+    When submitted, it will be passed to the corresponding constructor parameter.
+  -->
+  
+  <f:entry title="FFmpeg command line for screen recording" field="ffmpegCommand">
+    <f:textbox default="${descriptor.getFfmpegDefaultCommand()}"/>
+ </f:entry>
+ 
+    
+  <f:entry field="failJobIfFailed">
+      <f:checkbox default="true"/>
+      <label class="attach-previous">${%Mark the build as failed in case of failed recodring }</label>
+  </f:entry>  
+
+</j:jelly>
+
+
+
