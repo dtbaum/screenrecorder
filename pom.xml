@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<description>ScreenRecorder records video per FFmpeg and save it as build build artifact</description>
+	<description>ScreenRecorder records video per FFmpeg and saves recorder mp4 file as build artifact</description>
  <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
@@ -38,12 +38,12 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:github.com:jenkinsci/vncrecorder-plugin.git</connection>
-		<developerConnection>scm:git:https://github.com/jenkinsci/vncrecorder-plugin.git</developerConnection>
-		<url>https://github.com/jenkinsci/vncrecorder-plugin</url>
+		<connection>scm:github.com:dtbaum/screenrecorder.git</connection>
+		<developerConnection>scm:git:https://github.com/dtbaum/screenrecorder.git</developerConnection>
+		<url>https://github.com/dtbaum/screenrecorder</url>
     <tag>HEAD</tag>
   </scm>
 	
-	<url>https://wiki.jenkins-ci.org/display/JENKINS/VncRecorder+Plugin</url>
+	<url>https://wiki.jenkins-ci.org/display/JENKINS/ScreenRecorder+Plugin</url>
 	<name>ScreenRecorder Plugin</name>
 </project>
