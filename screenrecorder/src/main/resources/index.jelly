@@ -1,7 +1,0 @@
-<?jelly escape-by-default='true'?>
-<!--
-  This view is used to render the installed plugins page.
--->
-<div>
-Screenrecorder, plugin records video during this build, using <a href="https://ffmpeg.org/ffmpeg.html">FFmpeg</a>. Reorder videos are accessible as job artifact and per link in console.
-</div>
