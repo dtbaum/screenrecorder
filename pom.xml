@@ -8,7 +8,8 @@
     <relativePath />
   </parent>
 
-	<artifactId>screenrecorder</artifactId>
+	<artifactId>screenrecorder-plugin</artifactId>
+        <groupId>io.jenkins.plugins</groupId>
 	<version>0.1-SNAPSHOT</version>
 	<packaging>hpi</packaging>
 
