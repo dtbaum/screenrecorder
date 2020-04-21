@@ -10,7 +10,7 @@
 
 	<artifactId>screenrecorder</artifactId>
         <groupId>io.jenkins.plugins</groupId>
-	<version>0.2-SNAPSHOT</version>
+	<version>0.1-SNAPSHOT</version>
 	<packaging>hpi</packaging>
 
 	<licenses>
